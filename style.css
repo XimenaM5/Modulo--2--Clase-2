@@ -1,0 +1,45 @@
+*{
+    color: white;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+}
+
+article{
+    background-color: hsl(0, 0%, 12.16%);
+    width: 300px;
+    height: 500px;
+    padding: 40px 0;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+img{
+    width: 80px;
+    border-radius: 40px;
+}
+
+button{
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5px;
+    width: 250px;
+    height: 35px;
+    margin-top: 10px;
+    border-style: none;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: hsl(0, 0%, 15%);
+    width: 260px;
+    height: 45px;
+}
+
+#localizacion{
+    color: hsl(73.53, 89.64%, 62.16%);
+}
